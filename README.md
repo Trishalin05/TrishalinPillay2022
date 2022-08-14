@@ -1,8 +1,10 @@
 # TrishalinPillay2022
 The framework created is a BDD framework.
+
 #######################################
 How to run the tests locally?
 ######################################
+
 In the runner package, there is a Web Runner file. 
 Each feature file has a tag. Currently all feature files have been tagged as regression. If you right click and choose "Run" Web Runner,
 all tests will be run. You can also tag each scenario with a specific tag for example "@SmokeTests" and replace the "@Regression" tag
