@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="36.814115">
+<testcase classname="Landing Page Successfully Loaded" name="Navigate to Website Successfully" time="8.528692">
+<system-out><![CDATA[Given user navigates to home page to test now...............................passed
+Then url is open successfully launched again................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Landing Page Successfully Loaded" name="Navigate to Input Text Page" time="7.457552">
+<system-out><![CDATA[Given user navigates to home page to test now...............................passed
+When user clicks on Text Input after page landing page loads................passed
+Then user is on Text Input page.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User logs into Sample Application" name="Log into the Sample App Successfully" time="6.36026">
+<system-out><![CDATA[Given the user is on Sample App field page..................................passed
+And user enters "Trishalin" for username and "pwd" for password.............passed
+When user clicks login button...............................................passed
+Then user is logged into Sample App.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user I should be able to enter text in the text field for the button name and save my changes." name="Navigate to Input Text Page" time="6.168856">
+<system-out><![CDATA[Given user navigates to home page to test now...............................passed
+When user clicks on Text Input after page landing page loads................passed
+Then user is on Text Input page.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user I should be able to enter text in the text field for the button name and save my changes." name="Enter Text into Input text field" time="8.298755">
+<system-out><![CDATA[Given the user is on Text Input field page..................................passed
+And user enters "Test Button" for new button name...........................passed
+When user clicks new button to change name of button........................passed
+Then button name is changed to new button name..............................passed
+]]></system-out>
+</testcase>
+</testsuite>
